@@ -1,0 +1,25 @@
+.main {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  width: fit-content;
+  padding: 15px;
+}
+.text,
+.text-warper {
+  display: contents;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 100px;
+}
+.w_full {
+  width: 100%;
+}

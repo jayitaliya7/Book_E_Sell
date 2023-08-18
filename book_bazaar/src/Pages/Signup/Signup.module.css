@@ -1,0 +1,43 @@
+.main_warper {
+  display: flex;
+  flex-direction: column;
+  column-gap: 10px;
+  row-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 2px solid gray;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+  column-gap: 5px;
+  row-gap: 15px;
+  width: fit-content;
+  padding: 10px;
+}
+.row {
+  display: flex;
+  column-gap: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.row_2,
+.row_3 {
+  width: 100%;
+}
+.w_full {
+  width: 100%;
+}
+.error {
+  overflow: hidden;
+  color: red;
+}
